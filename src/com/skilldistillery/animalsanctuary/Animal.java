@@ -13,7 +13,8 @@ public class Animal {
         
 	}
 	
-    public String getName() {
+
+	public String getName() {
         return name;
     }
 
@@ -24,5 +25,24 @@ public class Animal {
     public String getColor() {
         return color;
     }
+    
+    public void setName(String name) {
+  		this.name = name;
+  	}
+
+  	public void setSpecies(String species) {
+  		this.species = species;
+  	}
+
+  	public void setColor(String color) {
+  		this.color = color;
+  	}
+  	
+  	public void eat(int amount) {
+        System.out.println("I'm eating " + amount + " foods.");
+    }
+  	
+  	public void makeSound() {
+	}
 
 }
