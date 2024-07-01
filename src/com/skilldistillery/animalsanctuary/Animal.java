@@ -1,50 +1,48 @@
 package com.skilldistillery.animalsanctuary;
 
-public class Animal {
-	private String name;
-	private String species;
-	private String color;
+public abstract class Animal {
+    private String name;
+    private String species;
+    private String color;
 
-	public Animal(String name, String species, String color) {
-		this.name = name;
-		this.species = species;
-		this.color = color;
+    public Animal(String name, String species, String color) {
+        this.name = name;
+        this.species = species;
+        this.color = color;
+    }
 
-	}
+    public String getName() {
+        return name;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getSpecies() {
-		return species;
-	}
+    public String getSpecies() {
+        return species;
+    }
 
-	public String getColor() {
-		return color;
-	}
+    public String getColor() {
+        return color;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public abstract void makeSound();
 
-	public void setSpecies(String species) {
-		this.species = species;
-	}
+    public void makeNoise() {
+        System.out.println("Animal noise...");
+    }
 
-	public void setColor(String color) {
-		this.color = color;
-	}
+    public void eat(int amount) {
+        System.out.println("I'm eating " + amount + " foods.");
+    }
 
-	public void eat(int amount) {
-		System.out.println("I'm eating " + amount + " foods.");
-	}
-
-	public void makeSound() {
-	}
-
-	public void makeNoise() {
-		System.out.println("animal noise...");
-	}
-
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", species='" + species + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
