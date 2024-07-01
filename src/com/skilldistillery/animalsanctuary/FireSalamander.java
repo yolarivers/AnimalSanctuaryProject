@@ -19,6 +19,6 @@ public class FireSalamander extends Animal {
 
     @Override
     public void eat(int amount) {
-        System.out.println(noise + " I love eating these " + amount + " worms.");
+        System.out.println(noise + " I love eating these " + amount + " spiders.");
     }
 }

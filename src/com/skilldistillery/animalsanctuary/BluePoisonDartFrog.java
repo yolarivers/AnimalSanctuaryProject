@@ -19,6 +19,6 @@ public class BluePoisonDartFrog extends Animal {
 
     @Override
     public void eat(int amount) {
-        System.out.println(noise + " I love eating these " + amount + " insects.");
+        System.out.println(noise + " I love eating these " + amount + " crickets.");
     }
 }

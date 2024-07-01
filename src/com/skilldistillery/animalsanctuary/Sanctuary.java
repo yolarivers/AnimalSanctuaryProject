@@ -13,12 +13,12 @@ public class Sanctuary {
     }
 
     public void listAnimals() {
-        System.out.println("Listing all animals in the sanctuary:");
+        System.out.println("Here are all the amazing animals in our sanctuary:");
         for (Animal animal : enclosures) {
             if (animal != null) {
                 System.out.println(animal.getName() + " the " + animal.getSpecies());
             } else {
-                System.out.println("This enclosure is empty.");
+                System.out.println("This enclosure currently has no animals.");
             }
         }
     }
@@ -40,7 +40,7 @@ public class Sanctuary {
             }
         }
         if (!added && showMessage) {
-            System.out.println("Sorry, the sanctuary is full.");
+            System.out.println("Sorry, but we've reached maximum animal capacity in the sanctuary!");
         }
     }
 

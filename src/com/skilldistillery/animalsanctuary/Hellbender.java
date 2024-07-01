@@ -19,6 +19,6 @@ public class Hellbender extends Animal {
 
     @Override
     public void eat(int amount) {
-        System.out.println(noise + " I love eating these " + amount + " fish.");
+        System.out.println(noise + " I love eating these " + amount + " crayfish.");
     }
 }
