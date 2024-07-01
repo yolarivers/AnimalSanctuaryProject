@@ -4,10 +4,10 @@
 The Animal Sanctuary App is a Java-based console application designed to manage an animal sanctuary. The sanctuary starts with a few animals and allows users to interact with the sanctuary. Users can list the animals, add new animals, start the attendant's rounds to feed the animals, and quit the application.
 
 ## How to Use
-- **Select 1: List Animals** - Choose option 1 from the menu to list all animals in the sanctuary.
-- **Select 2: Add a New Animal** - Choose option 2 from the menu to add a new animal. You will be prompted to select the type of animal and provide a name.
-- **Select 3: Start Attendant's Rounds** - Choose option 3 from the menu to have the attendant feed the animals.
-- **Select 4: Quit** - Choose option 4 from the menu to exit the application.
+- **List Animals** - Choose option 1 from the menu to list all animals in the sanctuary.
+- **Add a New Animal** - Choose option 2 from the menu to add a new animal. You will be prompted to select the type of animal and provide a name.
+- **Start Attendant's Rounds** - Choose option 3 from the menu to have the attendant feed the animals.
+- **Quit** - Choose option 4 from the menu to exit the application.
 
 ## Technologies Used
 - **Java**: Programming language used for developing the application.
